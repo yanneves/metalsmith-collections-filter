@@ -1,0 +1,45 @@
+{
+  "name": "metalsmith-collections-filter",
+  "version": "1.0.0",
+  "description": "Filter items in a Metalsmith collection.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "gulp",
+    "start": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yanneves/metalsmith-collections-filter.git"
+  },
+  "keywords": [
+    "metalsmith",
+    "filename",
+    "collection",
+    "filter"
+  ],
+  "author": "Yann Eves (hello@yanneves.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yanneves/metalsmith-collections-filter/issues"
+  },
+  "homepage": "https://github.com/yanneves/metalsmith-collections-filter#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-jscs": "^4.0.0",
+    "gulp-mocha": "^4.0.1",
+    "metalsmith": "^2.3.0",
+    "metalsmith-collections": "^0.9.0"
+  },
+  "peerDependencies": {
+    "metalsmith-collections": "^0.9.0"
+  },
+  "dependencies": {
+    "debug": "^2.6.3",
+    "lodash": "^4.17.4"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}
