@@ -73,7 +73,6 @@ describe(name, () => {
       })
 
     function articleAndFeatured(article) {
-      console.dir(article)
       return article.collection.includes('articles') && article.featured
     }
   })
