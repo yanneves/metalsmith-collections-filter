@@ -76,7 +76,7 @@ Filters cannot be defined as functions in the Metalsmith CLI
 {
   "plugins": {
     "metalsmith-collections-filter": {
-      "articles": { featured: true }
+      "articles": { "featured": true }
     }
   }
 }
