@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-collections-filter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Filter items in a Metalsmith collection.",
   "main": "lib/index.js",
   "scripts": {
